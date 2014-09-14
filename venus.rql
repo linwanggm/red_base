@@ -1,0 +1,5 @@
+create table venus_lat(year i4, day i4, hour i4, lat f4);
+load venus_lat("../datasets/venus_lat.dat");
+
+create table venus_long(year i4, day i4, hour i4, long f4);
+load venus_long("../datasets/venus_long.dat");
